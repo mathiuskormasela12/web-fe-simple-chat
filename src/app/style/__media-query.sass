@@ -1,0 +1,29 @@
+// ========= Chat Room Media Query Style
+
+@media screen and (min-width: 600px)
+  .chat-room
+    height: auto
+    box-sizing: content-box
+    padding: 2rem 0
+
+    & > div
+      display: flex
+      justify-content: center
+    
+    &--header
+      height: 5rem
+      flex: none
+
+      &--title 
+        font-size: 1.7rem
+      
+      &--logout 
+        font-size: 1rem
+    
+    &--main
+      height: 35rem
+      flex: none
+    
+    &--footer
+      height: 6rem
+      flex: none
