@@ -1,0 +1,45 @@
+// ========== Bubble Layout Style
+
+.bubble
+  display: flex
+  flex-direction: column
+  margin-bottom: .8rem
+
+  &--left
+    align-items: flex-start
+  
+  &--right
+    align-items: flex-end
+
+  &--wrapper
+    &--title
+      margin-bottom: .5rem
+      color: inherit
+      font-size: .8rem
+
+    &--content
+      border-radius: 7px
+      display: inline-block
+      padding: .8rem .5rem 1.5rem .5rem
+      min-width: 4.5rem
+      position: relative
+
+      &--primary
+        background-color: $primary
+        color: $light
+      
+      &--secondary
+        background-color: $secondary
+        color: $dark
+
+      &--text
+        color: inherit
+        font-size: .8rem
+        line-height: 1.15rem
+      
+      &--date
+        color: inherit
+        font-size: .5rem
+        position: absolute
+        right: 7px
+        bottom: 7px
